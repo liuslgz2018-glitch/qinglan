@@ -11,7 +11,7 @@ test('完整HTTP流程：登录、保存、导出、登出、来源防护',async
  t.after(async()=>{child.kill();if(child.exitCode===null)await once(child,'exit');rmSync(dir,{recursive:true,force:true});});
  const startup=await new Promise((resolve,reject)=>{let text='';const timeout=setTimeout(()=>reject(new Error('Startup timeout')),10000);child.stdout.on('data',b=>{text+=b;if(/http:\/\/localhost:\d+/.test(text)){clearTimeout(timeout);resolve(text);}});child.on('error',reject);});
  const base=startup.match(/http:\/\/localhost:\d+/)[0];
- let cookie='';async function req(path,method='GET',data,headers={}){return fetch(base+path,{method,headers:{Cookie:cookie,...(method!=='GET'?{'Content-Type':'application/json','X-Fitness-Request':'1'}:{}),...headers},body:data?JSON.stringify(data):undefined});}
+ let cookie='';async function req(path,method='GET',data,headers={}){return fetch(base+path,{method,headers:{Cookie:cookie,'X-Fitness-User':'owner',...(method!=='GET'?{'Content-Type':'application/json','X-Fitness-Request':'1'}:{}),...headers},body:data?JSON.stringify(data):undefined});}
  assert.equal((await req('/api/state')).status,401);
  assert.equal((await req('/api/setup','POST',{password:'1234567890'},{Origin:'https://evil.example'})).status,403);
  for(const password of ['12345','1234567','abc123'])assert.equal((await req('/api/setup','POST',{password})).status,400);

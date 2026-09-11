@@ -3,7 +3,7 @@ import {join,resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {execFileSync} from 'node:child_process';
 const root=resolve(fileURLToPath(new URL('..',import.meta.url)));
-const files=['server.mjs','lib/model.mjs','lib/store.mjs','public/app.js','public/sw.js'];
+const files=['server.mjs','lib/model.mjs','lib/store.mjs','lib/accounts.mjs','lib/dashboard.mjs','public/app.js','public/sw.js'];
 for(const f of files)execFileSync(process.execPath,['--check',join(root,f)]);
 const c=JSON.parse(readFileSync(join(root,'public/catalog.json'),'utf8'));
 if(c.length!==6||c.some(a=>a.steps.length!==10))throw new Error('Expected six arts with ten steps each');
