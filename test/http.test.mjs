@@ -1,0 +1,30 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {spawn} from 'node:child_process';
+import {mkdtempSync,rmSync} from 'node:fs';
+import {tmpdir} from 'node:os';
+import {join} from 'node:path';
+import {once} from 'node:events';
+test('完整HTTP流程：登录、保存、导出、登出、来源防护',async t=>{
+ const dir=mkdtempSync(join(tmpdir(),'six-arts-http-'));
+ const child=spawn(process.execPath,['server.mjs'],{cwd:new URL('..',import.meta.url),env:{...process.env,PORT:'0',HOST:'127.0.0.1',APP_ORIGIN:'',APP_INITIAL_PASSWORD:'',DATA_DIR:join(dir,'data'),BACKUP_DIR:join(dir,'backups')},stdio:['ignore','pipe','pipe']});
+ t.after(async()=>{child.kill();if(child.exitCode===null)await once(child,'exit');rmSync(dir,{recursive:true,force:true});});
+ const startup=await new Promise((resolve,reject)=>{let text='';const timeout=setTimeout(()=>reject(new Error('Startup timeout')),10000);child.stdout.on('data',b=>{text+=b;if(/http:\/\/localhost:\d+/.test(text)){clearTimeout(timeout);resolve(text);}});child.on('error',reject);});
+ const base=startup.match(/http:\/\/localhost:\d+/)[0];
+ let cookie='';async function req(path,method='GET',data,headers={}){return fetch(base+path,{method,headers:{Cookie:cookie,...(method!=='GET'?{'Content-Type':'application/json','X-Fitness-Request':'1'}:{}),...headers},body:data?JSON.stringify(data):undefined});}
+ assert.equal((await req('/api/state')).status,401);
+ assert.equal((await req('/api/setup','POST',{password:'1234567890'},{Origin:'https://evil.example'})).status,403);
+ for(const password of ['12345','1234567','abc123'])assert.equal((await req('/api/setup','POST',{password})).status,400);
+ let r=await req('/api/setup','POST',{password:'012345'});assert.equal(r.status,200);cookie=r.headers.get('set-cookie').split(';')[0];assert.match(cookie,/fitness_session=/);
+ assert.equal((await req('/api/setup','POST',{password:'another-password'})).status,409);
+ assert.equal((await req('/api/state')).status,200);
+ assert.equal((await req('/api/dashboard?date=2999-01-01')).status,400);
+ const dashboard=await req('/api/dashboard?date=2026-09-11');assert.equal(dashboard.status,200);assert.match((await dashboard.json()).svg,/<svg/);
+ const log={date:'2026-09-01',kind:'training',pain:'舒适',note:'',revision:0,entries:[{id:'pushup',step:1,sets:[30,30]}]};
+ assert.equal((await req('/api/log','PUT',log)).status,200);assert.equal((await req('/api/log','PUT',log)).status,409);
+ r=await req('/api/export');assert.equal((await r.json()).logs.length,1);
+ assert.equal((await req('/data/fitness.sqlite')).status,404);
+ r=await req('/');assert.equal(r.status,200);assert.match(await r.text(),/六艺日课/);
+ assert.equal((await req('/api/logout','POST',{})).status,200);assert.equal((await req('/api/state')).status,401);
+ assert.equal((await req('/api/login','POST',{password:'wrong'})).status,401);assert.equal((await req('/api/login','POST',{password:'012345'})).status,200);
+});

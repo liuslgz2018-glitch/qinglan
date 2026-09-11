@@ -1,0 +1,1342 @@
+[
+  {
+    "id": "pushup",
+    "name": "俯卧撑",
+    "mark": "推",
+    "chart": "/images/pushup-chart.png",
+    "steps": [
+      {
+        "step": 1,
+        "name": "墙壁俯卧撑",
+        "standards": [
+          "1×10",
+          "2×25",
+          "3×50"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-1.jpg",
+            "caption": "图1  面墙站稳，双手与胸同高。"
+          },
+          {
+            "src": "/images/figure-2.jpg",
+            "caption": "图2  屈肘靠近墙面，再推回站姿。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 2,
+        "name": "上斜俯卧撑",
+        "standards": [
+          "1×10",
+          "2×20",
+          "3×40"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-3.jpg",
+            "caption": "图3  扶稳支撑物，身体保持一线。"
+          },
+          {
+            "src": "/images/figure-4.jpg",
+            "caption": "图4  屈肘下降，让胸靠近支撑物。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 3,
+        "name": "膝盖俯卧撑",
+        "standards": [
+          "1×10",
+          "2×15",
+          "3×30"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-5.jpg",
+            "caption": "图5  双膝着地，肩髋膝保持连线。"
+          },
+          {
+            "src": "/images/figure-6.jpg",
+            "caption": "图6  以膝为支点下降，胸接近地面。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 4,
+        "name": "半俯卧撑",
+        "standards": [
+          "1×8",
+          "2×12",
+          "2×25"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-7.jpg",
+            "caption": "图7  双手撑地，球放在髋部下方。"
+          },
+          {
+            "src": "/images/figure-8.jpg",
+            "caption": "图8  屈肘做半程，髋部轻触球。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 5,
+        "name": "标准俯卧撑",
+        "standards": [
+          "1×5",
+          "2×10",
+          "2×20"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-9.jpg",
+            "caption": "图9  双臂撑直，腰腹收紧不塌腰。"
+          },
+          {
+            "src": "/images/figure-10.jpg",
+            "caption": "图10  胸降至小球高度，停顿再推起。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 6,
+        "name": "窄距俯卧撑",
+        "standards": [
+          "1×5",
+          "2×10",
+          "2×20"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-11.jpg",
+            "caption": "图11  双手靠拢，身体保持平直。"
+          },
+          {
+            "src": "/images/figure-12.jpg",
+            "caption": "图12  胸靠近手背，再平稳推起。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 7,
+        "name": "偏重俯卧撑",
+        "standards": [
+          "1×5",
+          "2×10",
+          "2×20"
+        ],
+        "unit": "次/侧",
+        "photos": [
+          {
+            "src": "/images/figure-13.jpg",
+            "caption": "图13  一手撑地，另一手扶篮球。"
+          },
+          {
+            "src": "/images/figure-14.jpg",
+            "caption": "图14  屈肘下降，胸靠近球上的手。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 8,
+        "name": "单臂半俯卧撑",
+        "standards": [
+          "1×5",
+          "2×10",
+          "2×20"
+        ],
+        "unit": "次/侧",
+        "photos": [
+          {
+            "src": "/images/figure-15.jpg",
+            "caption": "图15  单手撑地，另一手放在身后。"
+          },
+          {
+            "src": "/images/figure-16.jpg",
+            "caption": "图16  单臂做半程，髋部降至球面。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 9,
+        "name": "杠杆俯卧撑",
+        "standards": [
+          "1×5",
+          "2×10",
+          "2×20"
+        ],
+        "unit": "次/侧",
+        "photos": [
+          {
+            "src": "/images/figure-17.jpg",
+            "caption": "图17  主手撑地，辅助手向外扶球。"
+          },
+          {
+            "src": "/images/figure-18.jpg",
+            "caption": "图18  主臂屈肘下降，辅助手向外伸。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 10,
+        "name": "单臂俯卧撑",
+        "standards": [
+          "1×5",
+          "2×10",
+          "1×100"
+        ],
+        "unit": "次/侧",
+        "photos": [
+          {
+            "src": "/images/figure-19.jpg",
+            "caption": "图19  单臂撑直，双脚并拢，身体绷紧。"
+          },
+          {
+            "src": "/images/figure-20.jpg",
+            "caption": "图20  单臂下降至接近地面，再推起。"
+          }
+        ],
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "squat",
+    "name": "深蹲",
+    "mark": "蹲",
+    "chart": "/images/squat-chart.png",
+    "steps": [
+      {
+        "step": 1,
+        "name": "肩倒立深蹲",
+        "standards": [
+          "1×10",
+          "2×25",
+          "3×50"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-21.jpg",
+            "caption": "图21  肩背与上臂承重，双手托腰，双腿上伸。"
+          },
+          {
+            "src": "/images/figure-22.jpg",
+            "caption": "图22  屈髋收膝靠近前额，避免颈部承重。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 2,
+        "name": "折刀深蹲",
+        "standards": [
+          "1×10",
+          "2×20",
+          "3×40"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-23.jpg",
+            "caption": "图23  双脚分开，俯身扶住稳固的低凳。"
+          },
+          {
+            "src": "/images/figure-24.jpg",
+            "caption": "图24  扶凳屈腿蹲低，双脚跟保持着地。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 3,
+        "name": "支撑深蹲",
+        "standards": [
+          "1×10",
+          "2×15",
+          "3×30"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-25.jpg",
+            "caption": "图25  站立扶稳高支撑物，双脚约肩宽。"
+          },
+          {
+            "src": "/images/figure-26.jpg",
+            "caption": "图26  扶稳后缓慢蹲低，让手臂分担负重。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 4,
+        "name": "半深蹲",
+        "standards": [
+          "1×8",
+          "2×35",
+          "2×50"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-27.jpg",
+            "caption": "图27  双脚约肩宽，脚尖略向外站稳。"
+          },
+          {
+            "src": "/images/figure-28.jpg",
+            "caption": "图28  屈髋屈膝至约90°，大腿接近水平。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 5,
+        "name": "标准深蹲",
+        "standards": [
+          "1×5",
+          "2×10",
+          "2×30"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-29.jpg",
+            "caption": "图29  双脚约肩宽，站直，双臂舒适摆放。"
+          },
+          {
+            "src": "/images/figure-30.jpg",
+            "caption": "图30  缓慢蹲至大小腿靠拢，脚跟不抬起。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 6,
+        "name": "窄距深蹲",
+        "standards": [
+          "1×5",
+          "2×10",
+          "2×20"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-31.jpg",
+            "caption": "图31  脚跟靠拢，双臂前伸以维持平衡。"
+          },
+          {
+            "src": "/images/figure-32.jpg",
+            "caption": "图32  窄距蹲低，胸靠近大腿，脚跟着地。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 7,
+        "name": "偏重深蹲",
+        "standards": [
+          "1×5",
+          "2×10",
+          "2×20"
+        ],
+        "unit": "次/侧",
+        "photos": [
+          {
+            "src": "/images/figure-33.jpg",
+            "caption": "图33  一脚站稳，另一脚跟搭在前方球上。"
+          },
+          {
+            "src": "/images/figure-34.jpg",
+            "caption": "图34  支撑腿蹲低，前脚跟仍搭在球上。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 8,
+        "name": "单腿半深蹲",
+        "standards": [
+          "1×5",
+          "2×10",
+          "2×20"
+        ],
+        "unit": "次/侧",
+        "photos": [
+          {
+            "src": "/images/figure-35.jpg",
+            "caption": "图35  单脚站立，另一腿抬起，双臂前伸。"
+          },
+          {
+            "src": "/images/figure-36.jpg",
+            "caption": "图36  支撑膝屈至约90°，另一脚保持离地。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 9,
+        "name": "单腿辅助深蹲",
+        "standards": [
+          "1×5",
+          "2×10",
+          "2×20"
+        ],
+        "unit": "次/侧",
+        "photos": [
+          {
+            "src": "/images/figure-37.jpg",
+            "caption": "图37  单脚站立，球置于支撑腿外侧。"
+          },
+          {
+            "src": "/images/figure-38.jpg",
+            "caption": "图38  单腿蹲低，一手扶球辅助开始起身。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 10,
+        "name": "单腿深蹲",
+        "standards": [
+          "1×5",
+          "2×10",
+          "2×50"
+        ],
+        "unit": "次/侧",
+        "photos": [
+          {
+            "src": "/images/figure-39.jpg",
+            "caption": "图39  单脚站立，另一腿向前伸，双臂前举。"
+          },
+          {
+            "src": "/images/figure-40.jpg",
+            "caption": "图40  单腿缓慢蹲到底，前伸腿全程悬空。"
+          }
+        ],
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "pullup",
+    "name": "引体向上",
+    "mark": "拉",
+    "chart": "/images/pullup-chart.png",
+    "steps": [
+      {
+        "step": 1,
+        "name": "垂直引体",
+        "standards": [
+          "1×10",
+          "2×20",
+          "3×40"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-41.jpg",
+            "caption": "图41  靠近门框，双手抓稳，屈肘站立。"
+          },
+          {
+            "src": "/images/figure-42.jpg",
+            "caption": "图42  双臂伸展开，身体受控后倾。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 2,
+        "name": "水平引体向上",
+        "standards": [
+          "1×10",
+          "2×20",
+          "3×30"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-43.jpg",
+            "caption": "图43  抓牢稳固横边，身体悬于下方。"
+          },
+          {
+            "src": "/images/figure-44.jpg",
+            "caption": "图44  脚跟着地，将胸拉向横边。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 3,
+        "name": "折刀引体向上",
+        "standards": [
+          "1×10",
+          "2×15",
+          "3×20"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-45.jpg",
+            "caption": "图45  双手握杆，脚跟搭凳辅助。"
+          },
+          {
+            "src": "/images/figure-46.jpg",
+            "caption": "图46  屈肘上拉，下巴超过横杆。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 4,
+        "name": "半引体向上",
+        "standards": [
+          "1×8",
+          "2×11",
+          "2×15"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-47.jpg",
+            "caption": "图47  双臂约弯90°，双脚悬空。"
+          },
+          {
+            "src": "/images/figure-48.jpg",
+            "caption": "图48  从半程上拉，下巴超过横杆。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 5,
+        "name": "标准引体向上",
+        "standards": [
+          "1×5",
+          "2×8",
+          "2×10"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-49.jpg",
+            "caption": "图49  握杆悬垂，双肩收紧。"
+          },
+          {
+            "src": "/images/figure-50.jpg",
+            "caption": "图50  屈肘上拉，双腿不摆动借力。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 6,
+        "name": "窄距引体向上",
+        "standards": [
+          "1×5",
+          "2×8",
+          "2×10"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-51.jpg",
+            "caption": "图51  窄握横杆，双脚离地。"
+          },
+          {
+            "src": "/images/figure-52.jpg",
+            "caption": "图52  保持窄握，向上拉至过杆。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 7,
+        "name": "偏重引体向上",
+        "standards": [
+          "1×5",
+          "2×7",
+          "2×9"
+        ],
+        "unit": "次/侧",
+        "photos": [
+          {
+            "src": "/images/figure-53.jpg",
+            "caption": "图53  一手握杆，另一手握住其手腕。"
+          },
+          {
+            "src": "/images/figure-54.jpg",
+            "caption": "图54  双臂协同上拉，握杆手承重。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 8,
+        "name": "单臂半引体向上",
+        "standards": [
+          "1×4",
+          "2×6",
+          "2×8"
+        ],
+        "unit": "次/侧",
+        "photos": [
+          {
+            "src": "/images/figure-55.jpg",
+            "caption": "图55  单臂屈肘约90°，身体悬空。"
+          },
+          {
+            "src": "/images/figure-56.jpg",
+            "caption": "图56  单臂从半程上拉至下巴过杆。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 9,
+        "name": "单臂辅助引体向上",
+        "standards": [
+          "1×3",
+          "2×5",
+          "2×7"
+        ],
+        "unit": "次/侧",
+        "photos": [
+          {
+            "src": "/images/figure-57.jpg",
+            "caption": "图57  一手握杆，另一手抓毛巾辅助。"
+          },
+          {
+            "src": "/images/figure-58.jpg",
+            "caption": "图58  上拉后松开毛巾，主手继续发力。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 10,
+        "name": "单臂引体向上",
+        "standards": [
+          "1×1",
+          "2×3",
+          "2×6"
+        ],
+        "unit": "次/侧",
+        "photos": [
+          {
+            "src": "/images/figure-59.jpg",
+            "caption": "图59  单手握杆悬垂，肩部收紧。"
+          },
+          {
+            "src": "/images/figure-60.jpg",
+            "caption": "图60  单臂拉至下巴过杆，避免摆荡。"
+          }
+        ],
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "legraise",
+    "name": "举腿",
+    "mark": "腹",
+    "chart": "/images/legraise-chart.png",
+    "steps": [
+      {
+        "step": 1,
+        "name": "坐姿屈膝",
+        "standards": [
+          "1×10",
+          "2×25",
+          "3×40"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-61.jpg",
+            "caption": "图61  坐在稳固边沿，双腿向前伸。"
+          },
+          {
+            "src": "/images/figure-62.jpg",
+            "caption": "图62  双膝收向胸前，腹部保持收紧。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 2,
+        "name": "平卧抬膝",
+        "standards": [
+          "1×10",
+          "2×20",
+          "3×35"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-63.jpg",
+            "caption": "图63  仰卧屈膝，双脚略离地。"
+          },
+          {
+            "src": "/images/figure-64.jpg",
+            "caption": "图64  保持屈膝，将大腿抬向腹部。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 3,
+        "name": "平卧屈举腿",
+        "standards": [
+          "1×10",
+          "2×15",
+          "3×30"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-65.jpg",
+            "caption": "图65  仰卧，双膝微弯，脚跟离地。"
+          },
+          {
+            "src": "/images/figure-66.jpg",
+            "caption": "图66  膝角保持不变，将双腿抬起。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 4,
+        "name": "平卧蛙举腿",
+        "standards": [
+          "1×8",
+          "2×15",
+          "3×25"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-66.jpg",
+            "caption": "图66  膝角保持不变，将双腿抬起。"
+          },
+          {
+            "src": "/images/figure-67.jpg",
+            "caption": "图67  在高位把双腿伸直向上。"
+          },
+          {
+            "src": "/images/figure-68.jpg",
+            "caption": "图68  保持直腿，缓慢向下放。"
+          },
+          {
+            "src": "/images/figure-69.jpg",
+            "caption": "图69  脚跟接近地面但不落地。"
+          }
+        ],
+        "note": "屈腿上举 → 伸腿下放"
+      },
+      {
+        "step": 5,
+        "name": "平卧直举腿",
+        "standards": [
+          "1×5",
+          "2×10",
+          "2×20"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-70.jpg",
+            "caption": "图70  仰卧直腿，双脚略离地。"
+          },
+          {
+            "src": "/images/figure-71.jpg",
+            "caption": "图71  保持双腿伸直，抬到竖直。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 6,
+        "name": "悬垂屈膝",
+        "standards": [
+          "1×5",
+          "2×10",
+          "2×15"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-72.jpg",
+            "caption": "图72  握杆悬垂，身体稳定。"
+          },
+          {
+            "src": "/images/figure-73.jpg",
+            "caption": "图73  弯膝上提，抬至髋部高度。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 7,
+        "name": "悬垂屈举腿",
+        "standards": [
+          "1×5",
+          "2×10",
+          "2×15"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-74.jpg",
+            "caption": "图74  悬垂微屈膝，双脚置于身后。"
+          },
+          {
+            "src": "/images/figure-75.jpg",
+            "caption": "图75  保持膝角，将双腿向前抬高。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 8,
+        "name": "悬垂蛙举腿",
+        "standards": [
+          "1×5",
+          "2×10",
+          "2×15"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-75.jpg",
+            "caption": "图75  保持膝角，将双腿向前抬高。"
+          },
+          {
+            "src": "/images/figure-76.jpg",
+            "caption": "图76  抬起后伸直双腿，形成水平。"
+          },
+          {
+            "src": "/images/figure-77.jpg",
+            "caption": "图77  双腿伸直，缓慢向下放。"
+          },
+          {
+            "src": "/images/figure-78.jpg",
+            "caption": "图78  回到直腿悬垂，身体不摆荡。"
+          }
+        ],
+        "note": "屈腿上举 → 伸腿下放"
+      },
+      {
+        "step": 9,
+        "name": "悬垂半举腿",
+        "standards": [
+          "1×5",
+          "2×10",
+          "2×15"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-79.jpg",
+            "caption": "图79  直腿抬至约45°，保持悬空。"
+          },
+          {
+            "src": "/images/figure-80.jpg",
+            "caption": "图80  从半程继续上举至水平。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 10,
+        "name": "悬垂直举腿",
+        "standards": [
+          "1×5",
+          "2×10",
+          "2×30"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-81.jpg",
+            "caption": "图81  直腿悬垂，双肩保持收紧。"
+          },
+          {
+            "src": "/images/figure-82.jpg",
+            "caption": "图82  双腿伸直举至水平，受控回落。"
+          }
+        ],
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "bridge",
+    "name": "桥",
+    "mark": "桥",
+    "chart": "/images/bridge-chart.png",
+    "steps": [
+      {
+        "step": 1,
+        "name": "短桥",
+        "standards": [
+          "1×10",
+          "2×25",
+          "3×50"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-83.jpg",
+            "caption": "图83  仰卧屈膝，双脚靠近臀部。"
+          },
+          {
+            "src": "/images/figure-84.jpg",
+            "caption": "图84  以肩和脚支撑，把髋部抬高。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 2,
+        "name": "直桥",
+        "standards": [
+          "1×10",
+          "2×20",
+          "3×40"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-85.jpg",
+            "caption": "图85  坐地伸腿，双手撑在髋部两侧。"
+          },
+          {
+            "src": "/images/figure-86.jpg",
+            "caption": "图86  双手下压，抬髋至躯干腿部一线。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 3,
+        "name": "高低桥",
+        "standards": [
+          "1×8",
+          "2×15",
+          "3×30"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-87.jpg",
+            "caption": "图87  肩背靠稳高台，双手放头侧。"
+          },
+          {
+            "src": "/images/figure-88.jpg",
+            "caption": "图88  推离高台，将身体撑成弧形。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 4,
+        "name": "顶桥",
+        "standards": [
+          "1×8",
+          "2×15",
+          "2×25"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-89.jpg",
+            "caption": "图89  桥式下降，头部仅轻触地面。"
+          },
+          {
+            "src": "/images/figure-90.jpg",
+            "caption": "图90  双手双脚发力，将背部拱起。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 5,
+        "name": "半桥",
+        "standards": [
+          "1×8",
+          "2×15",
+          "2×20"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-91.jpg",
+            "caption": "图91  腰背轻靠球面，双手双脚撑地。"
+          },
+          {
+            "src": "/images/figure-92.jpg",
+            "caption": "图92  推起身体，让腰背离开球面。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 6,
+        "name": "标准桥",
+        "standards": [
+          "1×6",
+          "2×10",
+          "2×15"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-93.jpg",
+            "caption": "图93  仰卧屈膝，双手放在头部两侧。"
+          },
+          {
+            "src": "/images/figure-94.jpg",
+            "caption": "图94  双手双脚撑起，身体形成弧形。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 7,
+        "name": "下行桥",
+        "standards": [
+          "1×3",
+          "2×6",
+          "2×10"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-95.jpg",
+            "caption": "图95  背向墙站稳，后弯扶住墙面。"
+          },
+          {
+            "src": "/images/figure-96.jpg",
+            "caption": "图96  双手沿墙交替下移。"
+          },
+          {
+            "src": "/images/figure-97.jpg",
+            "caption": "图97  手掌落地，完成墙边桥式。"
+          }
+        ],
+        "note": "扶墙逐步向下"
+      },
+      {
+        "step": 8,
+        "name": "上行桥",
+        "standards": [
+          "1×2",
+          "2×4",
+          "2×8"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-98.jpg",
+            "caption": "图98  从低位桥式开始，手重新触墙。"
+          },
+          {
+            "src": "/images/figure-99.jpg",
+            "caption": "图99  双手沿墙交替上移。"
+          },
+          {
+            "src": "/images/figure-100.jpg",
+            "caption": "图100  回到直立，双手离开墙面。"
+          }
+        ],
+        "note": "下行后，沿墙返回站姿"
+      },
+      {
+        "step": 9,
+        "name": "合桥",
+        "standards": [
+          "1×1",
+          "2×3",
+          "2×6"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-101.jpg",
+            "caption": "图101  站稳后推髋，开始向后弯。"
+          },
+          {
+            "src": "/images/figure-102.jpg",
+            "caption": "图102  逐渐后弯，双手举过头顶。"
+          },
+          {
+            "src": "/images/figure-103.jpg",
+            "caption": "图103  双手落地，完成桥式。"
+          }
+        ],
+        "note": "站姿后弯至桥式"
+      },
+      {
+        "step": 10,
+        "name": "铁板桥",
+        "standards": [
+          "1×1",
+          "2×3",
+          "2×30"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-104.jpg",
+            "caption": "图104  先从站姿下落，完成桥式。"
+          },
+          {
+            "src": "/images/figure-105.jpg",
+            "caption": "图105  重心移向双腿，双手推离地面。"
+          },
+          {
+            "src": "/images/figure-106.jpg",
+            "caption": "图106  继续起身，回到直立姿势。"
+          }
+        ],
+        "note": "站姿 → 桥式 → 站姿"
+      }
+    ]
+  },
+  {
+    "id": "handstand",
+    "name": "倒立撑",
+    "mark": "立",
+    "chart": "/images/handstand-chart.png",
+    "steps": [
+      {
+        "step": 1,
+        "name": "靠墙顶立",
+        "standards": [
+          "30秒",
+          "1分钟",
+          "2分钟"
+        ],
+        "unit": "秒",
+        "photos": [
+          {
+            "src": "/images/figure-107.jpg",
+            "caption": "图107  头部垫软垫，双手撑地准备上墙。"
+          },
+          {
+            "src": "/images/figure-108.jpg",
+            "caption": "图108  双脚靠墙，稳定保持头手支撑。"
+          }
+        ],
+        "note": "静态保持，按时间计"
+      },
+      {
+        "step": 2,
+        "name": "乌鸦式",
+        "standards": [
+          "10秒",
+          "30秒",
+          "1分钟"
+        ],
+        "unit": "秒",
+        "photos": [
+          {
+            "src": "/images/figure-109.jpg",
+            "caption": "图109  蹲低前倾，让膝靠在上臂外侧。"
+          },
+          {
+            "src": "/images/figure-110.jpg",
+            "caption": "图110  重心前移，双脚离地保持平衡。"
+          }
+        ],
+        "note": "静态保持，按时间计"
+      },
+      {
+        "step": 3,
+        "name": "靠墙倒立",
+        "standards": [
+          "30秒",
+          "1分钟",
+          "2分钟"
+        ],
+        "unit": "秒",
+        "photos": [
+          {
+            "src": "/images/figure-111.jpg",
+            "caption": "图111  双手撑地，提起一腿准备上墙。"
+          },
+          {
+            "src": "/images/figure-112.jpg",
+            "caption": "图112  双臂伸直，脚跟轻靠墙保持。"
+          }
+        ],
+        "note": "静态保持，按时间计"
+      },
+      {
+        "step": 4,
+        "name": "半倒立撑",
+        "standards": [
+          "1×5",
+          "2×10",
+          "2×20"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-113.jpg",
+            "caption": "图113  靠墙倒立，双臂撑直。"
+          },
+          {
+            "src": "/images/figure-114.jpg",
+            "caption": "图114  屈肘下降半程，再向上推回。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 5,
+        "name": "标准倒立撑",
+        "standards": [
+          "1×5",
+          "2×10",
+          "2×15"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-115.jpg",
+            "caption": "图115  双臂撑直，双脚跟轻靠墙。"
+          },
+          {
+            "src": "/images/figure-116.jpg",
+            "caption": "图116  受控屈肘，头部靠近地面。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 6,
+        "name": "窄距倒立撑",
+        "standards": [
+          "1×5",
+          "2×9",
+          "2×12"
+        ],
+        "unit": "次",
+        "photos": [
+          {
+            "src": "/images/figure-117.jpg",
+            "caption": "图117  双手靠拢，保持靠墙倒立。"
+          },
+          {
+            "src": "/images/figure-118.jpg",
+            "caption": "图118  窄手位屈肘下降，再推起。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 7,
+        "name": "偏重倒立撑",
+        "standards": [
+          "1×5",
+          "2×8",
+          "2×10"
+        ],
+        "unit": "次/侧",
+        "photos": [
+          {
+            "src": "/images/figure-119.jpg",
+            "caption": "图119  一手撑地，另一手放在球上。"
+          },
+          {
+            "src": "/images/figure-120.jpg",
+            "caption": "图120  两侧高度不等，受控屈肘下降。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 8,
+        "name": "单臂半倒立撑",
+        "standards": [
+          "1×4",
+          "2×6",
+          "2×8"
+        ],
+        "unit": "次/侧",
+        "photos": [
+          {
+            "src": "/images/figure-121.jpg",
+            "caption": "图121  单臂承重，另一手向外伸。"
+          },
+          {
+            "src": "/images/figure-122.jpg",
+            "caption": "图122  主臂小幅屈肘，完成半程推举。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 9,
+        "name": "杠杆倒立撑",
+        "standards": [
+          "1×3",
+          "2×4",
+          "2×6"
+        ],
+        "unit": "次/侧",
+        "photos": [
+          {
+            "src": "/images/figure-123.jpg",
+            "caption": "图123  靠墙双手支撑，重心移向主手。"
+          },
+          {
+            "src": "/images/figure-124.jpg",
+            "caption": "图124  辅助手背着地，协助低位推起。"
+          }
+        ],
+        "note": ""
+      },
+      {
+        "step": 10,
+        "name": "单臂倒立撑",
+        "standards": [
+          "1×1",
+          "2×2",
+          "1×5"
+        ],
+        "unit": "次/侧",
+        "photos": [
+          {
+            "src": "/images/figure-125.jpg",
+            "caption": "图125  单臂靠墙支撑，另一手随时保护。"
+          },
+          {
+            "src": "/images/figure-126.jpg",
+            "caption": "图126  屈肘降低，准备充分再练此式。"
+          }
+        ],
+        "note": ""
+      }
+    ]
+  }
+]

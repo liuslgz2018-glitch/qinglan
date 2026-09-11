@@ -1,0 +1,12 @@
+services:
+  fitness:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:4177:4177"
+    environment:
+      APP_ORIGIN: ${APP_ORIGIN:-}
+      APP_INITIAL_PASSWORD: ${APP_INITIAL_PASSWORD:-}
+    volumes:
+      - ./data:/app/data
+      - ./backups:/app/backups
