@@ -1,4 +1,7 @@
 data/
 backups/
 .env
+.env.*
+!.env.example
+.runtime/
 *.log
